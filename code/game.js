@@ -23,10 +23,24 @@ function Level(plan) {
       if (ch == "x")
         fieldType = "wall";
       
-      else if (ch == "!")
-        fieldType = "lava";
+      else if (ch == "t")
+        fieldType = "tree";
+      else if (ch == "g")
+        fieldType = "green";
+      else if (ch == "b")
+        fieldType = "bad";
+      else if (ch == "c")
+        fieldType = "castle";
+      else if (ch == "f")
+        fieldType = "fence";
+      else if (ch == "w")
+        fieldType = "flag";
+      else if (ch == "d")
+        fieldType = "dark";
       else if (ch == "y")
-        fieldType = "floater";
+        fieldType = "pole";
+
+
 
       // "Push" the fieldType, which is a string, onto the gridLine array (at the end).
       gridLine.push(fieldType);

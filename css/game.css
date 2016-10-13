@@ -3,8 +3,16 @@
                  border-spacing: 0;   }
 .background td { padding: 0;          }
 .lava          { background: rgb(255, 100, 100); }
-.wall          { background: white;   }
-.floater       { background: gold;   }
+.wall          { background: orange;   }
+.tree          { background: gray;   }
+.green         { background: green;   }
+.bad           { background: teal;   }
+.castle        { background: red;   }
+.fence         { background: red;   }
+.flag          { background: white;   }
+.dark          { background: black;   }
+.pole          { background: gray;   }
+
 
 .game {
   overflow: hidden;
